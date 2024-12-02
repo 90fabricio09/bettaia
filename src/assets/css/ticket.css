@@ -1,0 +1,169 @@
+.window {
+    position: fixed;
+    bottom: 110px;
+    right: 40px;
+    border-radius: 50%;
+    transition: scale 0.3s;
+}
+
+.btn-sup {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #0084ff;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-sup:hover {
+    background-color: #252525;
+    box-shadow: #0084ff 0px 5px 15px;
+}
+
+.aba {
+    max-width: 460px;
+    overflow-y: auto;
+    max-height: 600px;
+    padding: 25px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+    background: rgb(37,37,37);
+    background: linear-gradient(159deg, rgba(37,37,37,1) 0%, rgba(0,132,255,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.aba h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.aba h2 span {
+    color: #0084ff;
+}
+
+.aba p {
+    color: #252525;
+}
+
+.global-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-sup {
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 15px;
+}
+
+.content-sup img {
+    border-radius: 5px;
+    width: 335px;
+}
+
+.content-sup i {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 30px;
+    color: #0084ff;
+}
+
+.content-sup img.sup-icon {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    width: 30px;
+}
+
+.content-sup h3 {
+    font-size: 17px;
+    color: #252525;
+    margin-bottom: 10px;
+}
+
+.content-sup h3 span {
+    color: #0084ff;
+}
+
+.content-sup p {
+    color: #252525;
+    font-size: 13px;
+}
+
+.content-sup a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sup_image {
+    width: 55px;
+}
+
+@media (width < 900px) {
+
+    .window {
+        right: 15px;
+        bottom: 80px;
+    }
+
+    .btn-sup {
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .aba {
+        max-width: 400px;
+    }
+
+    .content-sup i {
+        top: 8px;
+        right: 10px;
+        font-size: 25px;
+    }
+
+    .content-sup img.sup-icon {
+        top: 9px;
+        right: 10px;
+        font-size: 25px;
+    }
+}
+
+@media (width < 500px) {
+    .aba {
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    .content-sup {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .aba h2 {
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .content-sup i, .content-sup img.sup-icon {
+        display: none;
+    }
+
+    .content-sup img {
+        width: 205px;
+    }
+}
