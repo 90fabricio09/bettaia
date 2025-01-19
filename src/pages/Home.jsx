@@ -67,7 +67,7 @@ const Home = () => {
       <footer class="footer">
         <div class="footer-content">
           <p><b>Betta IA</b> • &copy; Todos os direitos reservados.</p>
-          <p>Desenvolvido com 💙 por <a href="https://bettaagency.com.br" target="_blank">Betta Agency</a></p>
+          <p>Desenvolvido com 💙 por <a href="https://bettabrasil.com.br" target="_blank">Betta Brasil</a></p>
         </div>
       </footer>
 
