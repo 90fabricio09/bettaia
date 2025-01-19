@@ -37,23 +37,23 @@ function Ticket() {
                     <h2>Olá<span>!</span> Como podemos te ajudar<span>?</span></h2>
                     <div className="global-content">
                         <div className="content-sup">
-                            <a href="https://wa.me/5511937350748" target="_blank" rel="noopener noreferrer">
+                            <a href="https://wa.me/5511931501833" target="_blank" rel="noopener noreferrer">
                                 <h3>Contato via WhatsApp</h3>
                                 <p>Normalmente respondemos em até 10 min.</p>
                                 <i className="bi bi-whatsapp"></i>
                             </a>
                         </div>
                         <div className="content-sup">
-                            <a href="https://www.instagram.com/bettarello_comercial/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/bettarello_fabricio/" target="_blank" rel="noopener noreferrer">
                                 <h3>Nosso Instagram</h3>
                                 <p>Venha nos conhecer mais de perto.</p>
                                 <i className="bi bi-instagram"></i>
                             </a>
                         </div>
                         <div className="content-sup">
-                            <a href="https://bettaagency.com.br">
-                                <h3>Betta Agency</h3>
-                                <p>Conheça a Betta Agency.</p>
+                            <a href="https://bettabrasil.com.br">
+                                <h3>Betta Brasil</h3>
+                                <p>Conheça a Betta Brasil.</p>
                                 <img className="sup-icon" src={ImgSupBlue} alt="Logo Betta" />
                             </a>
                         </div>
