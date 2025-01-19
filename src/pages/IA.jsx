@@ -145,8 +145,8 @@ const IA = () => {
               </button>
             </li>
             <li>
-              <a href="https://bettaagency.com.br">
-                <i className="bi bi-people"></i> Betta Agency
+              <a href="https://bettabrasil.com.br">
+                <i className="bi bi-people"></i> Betta Brasil
               </a>
             </li>
           </ul>
